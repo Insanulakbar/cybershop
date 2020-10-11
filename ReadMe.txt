@@ -35,4 +35,4 @@ GIT
 Untuk link git adalah https://github.com/Insanulakbar/cybershop
 
 VIDEO DEMONSTRASI
-Untuk link video adalah 
+Untuk link video adalah https://drive.google.com/file/d/1aCdHL_EuLAa0HJs-YTmzALNyhljolF2-/view?usp=sharing
