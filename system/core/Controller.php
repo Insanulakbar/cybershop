@@ -100,4 +100,12 @@ class CI_Controller {
 		return self::$instance;
 	}
 
+	public function cek_login()
+	{
+	    $this->load->library('session');
+	    if(empty($this->session->userdata('id'))){
+	        echo '<script>alert("Silahkan login dahulu untuk mengakses data.");window.location.href="'.base_url('').'";</script>';
+	    }
+	} 
+
 }

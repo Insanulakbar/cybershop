@@ -6,6 +6,7 @@ class Transaksi extends CI_Controller {
 	function __construct()
 	{
 		parent::__construct();
+		$this->cek_login();
 		$this->load->model('m_transaksi'); //Memanggil model m_transaksi
 	}
 

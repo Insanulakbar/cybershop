@@ -6,6 +6,7 @@ class Pembelian extends CI_Controller {
 	function __construct()
 	{
 		parent::__construct();
+		$this->cek_login();
 		$this->load->model('m_pembelian'); //Memanggil model pembelian
 		
 	}

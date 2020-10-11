@@ -6,6 +6,7 @@ class Dashboard extends CI_Controller {
 	function __construct(){
 		parent::__construct();
 		$this->load->model('m_dashboard'); //Model Dashboard untuk Grafik
+		$this->cek_login();
 		$this->load->library('session'); //Session Library
 	}
 
